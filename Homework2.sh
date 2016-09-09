@@ -18,6 +18,9 @@ function convertFahren ()
     #Print out and return.  Return in case its needed later
     echo -n "Converted from Fahrenheit to Celcius is "
     echo $num
+    let num+=273
+    echo -n "Converted from Fahrenheight to Kelvin is "
+    echo $num
     return $num
 }
 
